@@ -3,9 +3,14 @@ def main(S, d):
     
     Args:
         S (int): number
-        d (int): numnber
+        d (int): number
         
     Returns:
         float: result
     '''
-    return
+    a=(S-pow(d,2))/(2*d)
+    b=a+d
+    x=b-(pow(a,2))/(2*b)
+
+    return x
+print(main(16, 4))
